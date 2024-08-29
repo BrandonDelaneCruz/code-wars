@@ -1,13 +1,14 @@
 ﻿// See https://aka.ms/new-console-template for more information
 
 using Code_Wars.Classes;
+using System.Diagnostics;
+using System.Net;
+using System.Security;
 
-string newString = "blububbubub";
+string stringToConvert = "butthole is the way";
 
-List<char> list = newString.ToCharArray().ToList();
+string stringToReturn = EncryptThisKata.EncryptThis(stringToConvert);
 
-foreach (char c in list)
-{
-    Console.WriteLine(c);
-}
+Console.WriteLine(stringToReturn);
+
 
